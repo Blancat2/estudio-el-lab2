@@ -60,6 +60,7 @@
 .contactanos{
     background-color: lightslategrey;
     height: 400px;
+    display: flex;
 }
 .formulario{
     padding: 2px;
@@ -69,7 +70,7 @@
 .face{
     height: 60px;
     width: 60px;
-    display: flex;
+    
 }
 
 

@@ -60,6 +60,10 @@
 .contactanos{
     background-color: lightslategrey;
     height: 400px;
+    
+}
+
+.contacto{
     display: flex;
 }
 .formulario{

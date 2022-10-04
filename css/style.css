@@ -60,14 +60,14 @@
 .contactanos{
     background-color: lightslategrey;
     height: 400px;
-    margin: 10px;
+   
     
 }
 
 .contacto{
     display: flex;
     justify-content: space-between;
-    
+    margin: 10px;
 }
 .formulario{
     padding: 2px;

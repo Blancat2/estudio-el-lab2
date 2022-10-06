@@ -35,6 +35,12 @@
     
 }
 
+@media (max-width: 767px) {
+    .textoSlogan{
+        text-align: center;
+    }
+}
+
 .container{
     margin: 5px;
 }
@@ -54,9 +60,30 @@
 .video1{
     padding: 10px;
 }
+ @media (max-width: 767px){
+    .canciones{
+        align-items: center;
+        justify-content: center;
+        display: flex;
 
+        .video1{
+            width: 1000px;
+            height: 400px;
+        }
+
+        .video2{
+            width: 1000px;
+            height: 400px;
+        }
+
+    }
+
+ }
 .nosotros{
     height: 600px;
+    .textoNosotros{
+        margin: 10px;
+    }
 }
 
 .itemForm{

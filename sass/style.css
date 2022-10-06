@@ -28,6 +28,11 @@
   justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .textoSlogan {
+    text-align: center;
+  }
+}
 .container {
   margin: 5px;
 }
@@ -47,8 +52,26 @@
   padding: 10px;
 }
 
+@media (max-width: 767px) {
+  .canciones {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .canciones .video1 {
+    width: 1000px;
+    height: 400px;
+  }
+  .canciones .video2 {
+    width: 1000px;
+    height: 400px;
+  }
+}
 .nosotros {
   height: 600px;
+}
+.nosotros .textoNosotros {
+  margin: 10px;
 }
 
 .itemForm {

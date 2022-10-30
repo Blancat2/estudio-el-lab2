@@ -4,7 +4,7 @@
 }
 
 #header {
-  background-color: orange;
+  background-color: rgb(252, 209, 130);
   padding: 3%;
   margin-bottom: 1%;
   display: flex;
@@ -39,6 +39,10 @@
 
 .imagen {
   padding: 5px;
+}
+
+.lista__de__equipos{
+  margin: 15px;
 }
 
 .canciones {
@@ -79,7 +83,7 @@
 }
 
 .contactanos {
-  background-color: orange;
+  background-color: rgb(252, 209, 130);
   height: 400px;
 }
 
